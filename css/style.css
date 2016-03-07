@@ -31,3 +31,7 @@ body {
 #serverList li a:hover {
   background: #EEF;
 }
+
+#serverList li img {
+  float: left;
+}
