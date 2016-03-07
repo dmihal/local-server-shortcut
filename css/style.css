@@ -1,11 +1,22 @@
 body {
   margin: 0;
+  width: 200px;
+  min-height: 30px;
 }
 
 #serverList {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+
+#serverList:empty::after {
+  content: 'No servers found :(';
+  text-align: center;
+  display: block;
+  line-height: 36px;
+  color: #4C4C4C;
+  background-color: #F1F1F1;
 }
 
 #serverList li a {
