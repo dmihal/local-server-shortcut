@@ -16,7 +16,7 @@
       this.src = chrome.extension.getURL('icons/icon16.png');
     };
     link.appendChild(img);
-    var title = document.createElement('div');
+    var title = document.createElement('span');
     title.innerText = titleTxt;
     link.appendChild(title);
     return li;
