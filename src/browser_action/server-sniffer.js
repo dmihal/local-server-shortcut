@@ -15,6 +15,8 @@
     var link = document.createElement('a');
     li.appendChild(link);
     link.href = `http://${host}:${port}/`;
+    link.target = '_blank';
+
     var img = document.createElement('img');
     img.src = `http://${host}:${port}/favicon.ico`;
     img.onerror = function(){
