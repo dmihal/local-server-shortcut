@@ -8,7 +8,8 @@
     4000,
     8000,
     8008,
-    8080
+    8080,
+    8888
   ];
   var itemBuilder = function(host, port, titleTxt) {
     var li = document.createElement('li');
