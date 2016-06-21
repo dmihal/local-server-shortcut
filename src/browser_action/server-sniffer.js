@@ -2,7 +2,12 @@
   var list = document.querySelector('ul');
   var PORTS = [
     80,
+    443,
+    591,
+    3000,
+    4000,
     8000,
+    8008,
     8080
   ];
   var itemBuilder = function(host, port, titleTxt) {
