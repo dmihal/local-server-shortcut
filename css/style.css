@@ -19,12 +19,15 @@ body {
   background-color: #F1F1F1;
 }
 
+li.hidden {
+  display: none;
+}
+
 #serverList li a {
   display: block;
   white-space: nowrap;
-  line-height: 36px;
+  height: 36px;
   width: 200px;
-  padding: 0 10px;
   text-decoration: none;
 }
 
@@ -33,6 +36,24 @@ body {
 }
 
 #serverList li img {
-  vertical-align: middle;
-  margin-right: 10px
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin: 10px;
+}
+
+.title {
+  line-height: 36px;
+}
+
+.subtitle {
+  color: gray;
+}
+
+.hasSubtitle .title {
+  padding-top: 4px;
+}
+
+.hasSubtitle .title, .hasSubtitle .subtitle {
+  line-height: 14px;
 }
